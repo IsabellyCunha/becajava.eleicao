@@ -43,6 +43,12 @@ public class Candidato {
 	public void setTipo_Candidato(String tipo_Candidato) {
 		Tipo_Candidato = tipo_Candidato;
 	}
+	public Municipio getMunicipio() {
+		return Municipio;
+	}
+	public void setMunicipio(Municipio municipio) {
+		Municipio = municipio;
+	}
 	
 	
 	

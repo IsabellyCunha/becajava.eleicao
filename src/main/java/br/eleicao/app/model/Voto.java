@@ -26,4 +26,8 @@ public class Voto {
 	@ManyToOne
 	@JoinColumn(name = "CandidatoId")
 	private Candidato Candidato;
+	
+	@ManyToOne
+	@JoinColumn(name = "ZonaId")
+	private Zona Zona;
 }
